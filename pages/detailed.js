@@ -4,10 +4,10 @@ import {Button, Row, Col} from 'antd'
 import Header from "../components/Header";
 // import Link from 'next/link'
 
-const Home = () => (
+const Detailed = () => (
   <>
     <Head>
-      <title>Home</title>
+      <title>Detailed</title>
     </Head>
     <Header />
     <Row className='comm-main' type='flex' justify='center'>
@@ -20,4 +20,4 @@ const Home = () => (
     </Row>
   </>
 )
-export default Home
+export default Detailed
